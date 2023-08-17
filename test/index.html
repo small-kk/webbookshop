@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Hello</title>
+</head>
+<body>
+<!-- 注释-->
+<p>Hello {{.Name}}</p>
+<p>性别：{{.Gender}}</p>
+<p>年龄：{{.Age}}</p>
+
+{{if .IsBoy true}}
+是男孩
+{{else}}
+是女孩
+{{end}}
+
+</body>
+</html>
